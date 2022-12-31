@@ -1,0 +1,32 @@
+.img-float{
+    width: 40%;
+    float: left;
+    margin-right: 10px;
+    /* margin-left: 20px; */
+}
+.par1{
+    background-color: coral;
+}
+.clear{
+    clear: both; /* we ignore the float with this*/
+}
+.box{
+    float: left;
+    font-size: 2rem;
+}
+.box1{
+background-color: darkcyan;
+/* float: left; */
+width: 33.33%;
+text-align: center;
+}
+.box2{
+background-color: darkgoldenrod;
+/* float: left;     */
+width: 33.33%;
+}
+.box3{
+    background-color: darkviolet;
+    /* float:left ; */
+    width: 33.33%;
+}

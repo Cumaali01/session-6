@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+}
+html{
+    font-size: 16px; /*default is 16px, we can make it bigger, 1rem = 16px*/
+}
+body {
+  height: 100vh; /* we have to give body container a height of vh so that it can be used for the below children*/
+  background-color: pink;
+}
+.abs {
+  background-color: aqua;
+  width: 10cm;
+}
+.div2 {
+  background-color: yellow;
+  width: 50%;
+  height: 50%;
+}
+.div3 {
+  background-color: orange;
+  width: 25rem;
+  height: 50%;
+}
+.div4 {
+  background-color: darkmagenta;
+  width: 50vw; /* percent of the screen we view */
+}
+.div5{
+font-size: 1em; /*16px*/
+}
+.div6{
+    font-size: 2em;/*32px*/
+}
+.div7{
+    font-size: .5em; /*16px, because the parent div6/2= 16px*/
+}
+.div8{
+    font-size: 1rem;
+}
+.div9{
+    font-size: 2rem; /*rem does not inherit from a parent, it accepts html's default size*/
+}
+.div10{
+    font-size: 3rem;
+}
